@@ -25,3 +25,11 @@ Run the detection, tracking and classification by the command:
 ```
 python3 cell_process.py /input_dir/ /output_dir/
 ```
+The input_dir is the folder where the original images are. The output_dir is the folder where TLCellClassifier put processing result.
+
+#Training
+## Cell Detection
+To train the cell Detection model, 
+
+## Cell Tracking
+## Cell Classification
