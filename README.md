@@ -1,4 +1,5 @@
-# cell_classification_ml
+# TLCellClassifier
+
 # Introduction
 This repository is the implementation fo paper "Machine Learning Based Cell Classification for Bright
 Field Time-Lapse Images".
