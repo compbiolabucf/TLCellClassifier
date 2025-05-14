@@ -27,7 +27,7 @@ python3 cell_process.py /input_dir/ /output_dir/
 ```
 The input_dir is the folder where the original images are. The output_dir is the folder where TLCellClassifier put processing result.
 
-#Training
+# Training
 ## Cell Detection
 To train the cell Detection model, 
 
