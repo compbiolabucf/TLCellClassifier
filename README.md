@@ -31,7 +31,7 @@ The input_dir is the folder where the original images are. The output_dir is the
 To train the cell Detection model, the dataset as follows should be prepared.
 
 
-<img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/detection.png" width="500">
+<img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/detection.png" width="400">
 
 There are two classes in the CNN-based classifier. One is cells, and the other is non-cells. 10x10 images are cropped and labelled.
 
