@@ -46,7 +46,20 @@ To train cell tracking model, the images of cell tracks should be prepared. 18x1
 
 <img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/Tracking.png" width="500">
 
+You can train the model by the following command:
+```
+python3 train_cells.py \
+    --dataset_dir=./cells \
+    --loss_mode=cosine-softmax \
+    --log_dir=./output/cells/ \
+    --run_id=cosine-softmax
+```
 
 ## Cell Classification
 Cell Classification is implemented by applying LSTM on video of individual cells.
 <video src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/Media1.avi" width="100" controls></video>
+
+You can train the model by running the following command:
+```
+python3 video_classification_splits_error_augment.py
+```
