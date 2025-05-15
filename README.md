@@ -42,9 +42,11 @@ python3 dig_classify_v1.py
 ```
 
 ## Cell Tracking
-To train cell tracking model, the images of cell tracks should be prepared.
+To train cell tracking model, the images of cell tracks should be prepared. 18x18 images of cell neighbourhood are cropped across time points and labelled.
 
 <img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/Tracking.png" width="500">
 
 
 ## Cell Classification
+Cell Classification is implemented by applying LSTM on video of individual cells.
+<video src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/Media1.avi" width="100" controls></video>
