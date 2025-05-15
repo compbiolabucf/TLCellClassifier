@@ -42,4 +42,9 @@ python3 dig_classify_v1.py
 ```
 
 ## Cell Tracking
+To train cell tracking model, the images of cell tracks should be prepared.
+
+<img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/Tracking.png" width="500">
+
+
 ## Cell Classification
