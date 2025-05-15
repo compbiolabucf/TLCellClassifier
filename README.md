@@ -29,7 +29,9 @@ The input_dir is the folder where the original images are. The output_dir is the
 # Training
 ## Cell Detection
 To train the cell Detection model, the dataset as follows should be prepared.
-![Detection Training]<img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/detection.png" width="300">
+
+
+<img src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/detection.png" width="500">
 
 ## Cell Tracking
 ## Cell Classification
