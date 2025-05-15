@@ -56,7 +56,7 @@ python3 train_cells.py \
 ```
 
 ## Cell Classification
-Cell Classification is implemented by applying LSTM on video of individual cells.
+Cell Classification is implemented by applying LSTM on videos of individual cells.
 <video src="https://github.com/compbiolabucf/TLCellClassifier/blob/main/assets/Media1.avi" width="100" controls></video>
 
 You can train the model by running the following command:
